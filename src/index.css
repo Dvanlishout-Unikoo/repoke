@@ -1006,7 +1006,7 @@
    text-align: center;
  }
 
- .HeaderTeamPreview {
+ .Header {
   background-color: #fff;
   box-shadow: 0 9px 25px 0 rgba(21,42,61,.1);
   border-radius: 18px;
@@ -1015,7 +1015,7 @@
   gap: 24px;
  }
 
-  .HeaderTeamPreview .icon {
+  .HeaderPreview .icon {
    background-color: #EFCCC5;
   background-image: url("./assets/icon/heart.svg");
    background-repeat: no-repeat;  
@@ -1026,13 +1026,13 @@
    border-radius: 12px;
  }
 
- .HeaderTeamPreview .text {
+ .HeaderPreview .text {
    display: flex;
    flex-direction: column;
    gap: 4px;
  }
 
- .HeaderTeamPreview h2 {
+ h2 {
    font-family: 'agenda';
    font-size: 18px;
    line-height: 32px;
@@ -1040,12 +1040,73 @@
    font-weight: 600;
  }
 
- .HeaderTeamPreview p {
+p {
    font-family: 'Muli Regular';
    font-size: 16px;
    color: #60627A;
  }
+
+ .HeaderTeamPreview {
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   gap: 16px;
+ }
+
+ .HeaderTeamPreview .profiles {
+   display: flex;
+   flex-direction: row;
+   height: 48px;
+ }
  
+ .profiles div{
+   background-size: 60px;
+   border-radius: 50%;
+   object-fit: scale-down;
+   height: 48px;
+   width: 48px;
+   background-position-y: 20%;
+   background-position-x: center;
+   border: 2px solid #fff;
+   position: absolute;
+ }
+
+ .jorne {
+  background-image: url("./assets/icon/jorne.jpg");
+ }
+
+ .arne {
+  background-image: url("./assets/icon/arne.jpg");
+  left: 72px;
+ }
+
+ .helder {
+  background-image: url("./assets/icon/helder.jpg");
+  left: 108px;
+ }
+
+ .jens {
+  background-image: url("./assets/icon/jens.jpg");
+  left: 144px;
+ }
+
+ .dries {
+  background-image: url("./assets/icon/dries.jpg");
+  left: 180px;
+ }
+
+ .plusButton {
+   background-color: #E6F6F4;
+   left: 216px;
+
+ }
+ 
+ .plusButton h2 {
+   line-height: 40px;
+   text-align: center;
+   font-size: 28px;
+
+ }
 
  @media screen and (min-width: 40em) {
    .page.lists-show nav {

@@ -11136,6 +11136,13 @@
   dependencies:
     "js-tokens" "^3.0.0 || ^4.0.0"
 
+"lottie-react@^2.2.0":
+  "integrity" "sha512-Z0xvQSfdpiSYV+SL1i1sa/VonMsW958pFJsWoBpGw+fjQiD2AsqTjy0mozHuyJhZ4Bgxi4rdv64TODgKUNpVIQ=="
+  "resolved" "https://registry.npmjs.org/lottie-react/-/lottie-react-2.2.0.tgz"
+  "version" "2.2.0"
+  dependencies:
+    "lottie-web" "^5.8.1"
+
 "lottie-web@^5.8.1":
   "integrity" "sha512-9gIizWADlaHC2GCt+D+yNpk5l2clZQFqnVWWIVdY0LnxC/uLa39dYltAe3fcmC/hrZ2IUQ8dLlY0O934Npjs7Q=="
   "resolved" "https://registry.npmjs.org/lottie-web/-/lottie-web-5.8.1.tgz"
