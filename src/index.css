@@ -1,6 +1,8 @@
 /* Reset.less
  * Props to Eric Meyer (meyerweb.com) for his CSS reset file. We're using an adapted version here	that cuts out some of the reset HTML elements we will never need here (i.e., dfn, samp, etc).
  * ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+ @import url("https://use.typekit.net/lwu3pcs.css");
+
  html,
  body {
    margin: 0;
@@ -202,6 +204,20 @@
    font-weight: 800;
    src: url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8aBc5tU1Q.ttf) format('truetype');
  }
+
+ @font-face {
+   font-family: 'Muli Regular';
+   font-style: normal;
+   font-weight: 600;
+  src: url(./assets/font/Muli-Regular.ttf); 
+ }
+ @font-face {
+  font-family: 'Muli Bold';
+  font-style: bold;
+  font-weight: 800;
+  src: url(./assets/font/Muli-Bold.ttf); 
+}
+
  .force-wrap {
    word-wrap: break-word;
    word-break: break-all;
@@ -989,6 +1005,48 @@
    padding: 1.5rem 1.25rem;
    text-align: center;
  }
+
+ .HeaderTeamPreview {
+  background-color: #fff;
+  box-shadow: 0 9px 25px 0 rgba(21,42,61,.1);
+  border-radius: 18px;
+  padding: 12px;
+  display: flex;
+  gap: 24px;
+ }
+
+  .HeaderTeamPreview .icon {
+   background-color: #EFCCC5;
+  background-image: url("./assets/icon/heart.svg");
+   background-repeat: no-repeat;  
+   background-position-x: center;
+   background-position-y: center;
+   height: 60px;
+   width: 60px;
+   border-radius: 12px;
+ }
+
+ .HeaderTeamPreview .text {
+   display: flex;
+   flex-direction: column;
+   gap: 4px;
+ }
+
+ .HeaderTeamPreview h2 {
+   font-family: 'agenda';
+   font-size: 18px;
+   line-height: 32px;
+   color: #0E1035;
+   font-weight: 600;
+ }
+
+ .HeaderTeamPreview p {
+   font-family: 'Muli Regular';
+   font-size: 16px;
+   color: #60627A;
+ }
+ 
+
  @media screen and (min-width: 40em) {
    .page.lists-show nav {
      text-align: left;
