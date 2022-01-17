@@ -1,6 +1,6 @@
 import React from 'react';
 
-import HeaderComponent from './Header-component';
+import HeaderComponent from './HeaderComponent';
 
 import { withDesign } from 'storybook-addon-designs';
 
