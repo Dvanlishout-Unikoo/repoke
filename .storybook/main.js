@@ -7,5 +7,5 @@ module.exports = {
     '@storybook/preset-create-react-app',
     '@storybook/addon-interactions',
     '@storybook/addon-designs'
-  ],
+  ],  
 };

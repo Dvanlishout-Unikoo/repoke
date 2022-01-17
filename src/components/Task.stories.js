@@ -1,11 +1,13 @@
-
 import React from 'react';
 
 import Task from './Task';
 
+import { withDesign } from 'storybook-addon-designs';
+
 export default {
   component: Task,
   title: 'Task',
+  decorators: [withDesign],
 };
 
 const Template = args => <Task {...args} />;
@@ -33,5 +35,18 @@ Archived.args = {
   task: {
     ...Default.args.task,
     state: 'TASK_ARCHIVED',
+  }, 
+  design: {
+    type: 'figma',
+    url:
+      'https://www.figma.com/file/Klm6pxIZSaJFiOMX5FpTul9F/storybook-addon-designs-sample',
   },
 };
+
+Archived.parameters = {
+  design: {
+    type: 'figma',
+    url:
+      'https://www.figma.com/file/Klm6pxIZSaJFiOMX5FpTul9F/storybook-addon-designs-sample',
+  },
+}
