@@ -11136,6 +11136,11 @@
   dependencies:
     "js-tokens" "^3.0.0 || ^4.0.0"
 
+"lottie-web@^5.8.1":
+  "integrity" "sha512-9gIizWADlaHC2GCt+D+yNpk5l2clZQFqnVWWIVdY0LnxC/uLa39dYltAe3fcmC/hrZ2IUQ8dLlY0O934Npjs7Q=="
+  "resolved" "https://registry.npmjs.org/lottie-web/-/lottie-web-5.8.1.tgz"
+  "version" "5.8.1"
+
 "lower-case@^2.0.1":
   "integrity" "sha512-LiWgfDLLb1dwbFQZsSglpRj+1ctGnayXz3Uv0/WO8n558JycT5fg6zkNcnW0G68Nn0aEldTFeEfmjCfmqry/rQ=="
   "resolved" "https://registry.npmjs.org/lower-case/-/lower-case-2.0.1.tgz"
